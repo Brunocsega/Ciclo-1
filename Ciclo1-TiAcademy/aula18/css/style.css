@@ -1,0 +1,31 @@
+:root {
+    font-size: 30px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+article#el-pai {
+    width: 100vw;
+    height: 100vh;
+    padding: 5px;
+    background-color: tomato;
+}
+
+/* article#el-pai p#el-filho {
+    width: 100%;
+    height: auto;
+    background-color: coral;
+    font-size: 1em; 1em = 20px pq o "em" procura o tamanho do elemento pai mais próximo, que nesse caso foi o "article"
+} 
+*/
+
+article#el-pai p#el-filho {
+    width: 100%;
+    height: auto;
+    background-color: coral;
+    font-size: 1rem; /*1rem = 16 px pq o rem se baseia no root, que nesse caso tem por pré-definição 16px*/
+}
